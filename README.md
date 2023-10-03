@@ -3,13 +3,13 @@
 In this task you will be parsing metadata from two types of [DBT](https://www.getdbt.com/) models metadata: [freshness](https://docs.getdbt.com/reference/resource-properties/freshness#definition) and [tests](https://docs.getdbt.com/docs/build/tests#overview)
 
 End result is two tables in [BigQuery](https://cloud.google.com/bigquery) for each type of metadata.
-Schema for these tables is called <code> de_hw_NAME_SURNAME </code>
+Schema for these tables is called <code>de_hw_NAME_SURNAME</code>
 
 <h2 style="text-align: center;">Freshness</h2> 
 
-Path to files folder <code> gs://kilo_de_hw_files/freshness/ </code>
+Path to files folder <code>gs://kilo_de_hw_files/freshness/</code>
 </br>
-Name of table in BigQuery - <code> freshness_results </code>
+Name of table in BigQuery - <code>freshness_results</code>
 </br>
 Columns:
 - id
