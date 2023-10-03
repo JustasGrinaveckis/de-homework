@@ -3,13 +3,16 @@
 In this task you will be parsing metadata from two types of [DBT](https://www.getdbt.com/) models metadata: [freshness](https://docs.getdbt.com/reference/resource-properties/freshness#definition) and [tests](https://docs.getdbt.com/docs/build/tests#overview)
 
 End result is two tables in [BigQuery](https://cloud.google.com/bigquery) for each type of metadata.
-Schema for these tables is called <code>de_hw_NAME_SURNAME</code>
+Schema for these tables is called <code>de_hw_NAME_SURNAME</code> </br>
+Project name - **kilo-dw** </br>
+Project number - **152882472640** </br>
 
 <h2 style="text-align: center;">Freshness</h2> 
 
 Path to files folder <code>gs://kilo_de_hw_files/freshness/</code>
 </br>
-Name of table in BigQuery - <code>freshness_results</code>
+Name of table in BigQuery - <code>freshness_results</code> </br>
+Full table path would be *kilo-dw.de_hw_NAME_SURNAME.freshness_results* </br>
 </br>
 Columns:
 - id
@@ -42,10 +45,9 @@ Data types for each column can be set based on your own expertise. </br>
 
 <h2 style="text-align: center;">Test</h2> 
 
-Path to files folder <code> gs://kilo_de_hw_files/test/ </code>
-</br>
-Name of table in BigQuery - <code> test_results </code>
-</br>
+Path to files folder <code>gs://kilo_de_hw_files/test/</code> </br>
+Name of table in BigQuery - <code>test_results</code> </br>
+Full table path would be *kilo-dw.de_hw_NAME_SURNAME.test_results* </br>
 Columns:
 - id
 - table_name
