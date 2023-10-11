@@ -72,7 +72,7 @@ Reading from Google Cloud Storage and loading to BigQuery can be done after auth
 It's strongly recommended to use Python programming language for task completion as well as [Python SDK](https://cloud.google.com/python/docs/getting-started) when communicating with GCP. </br>
 Setting up environment (venv or installing in base env) is solely upon one's wants and needs. It won't be evaluated.
 </br>
-End result is a link to private github repo with written code.
+End result is a link to private github repo with written code. </br>
 Resources:
 - [gcloud CLI](https://cloud.google.com/sdk/docs/install-sdk)
 - <code>gcloud auth application-default login</code> - to login with ADC
